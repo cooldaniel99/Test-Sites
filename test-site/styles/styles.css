@@ -26,6 +26,10 @@
     padding-left: 10px;
 }
 
+.same {
+    color: #f9faf8;
+}
+
  .container-one {
      display: flex;
      flex-direction: column;
@@ -90,21 +94,92 @@
      
  }
 
- .first-h {
-     font-weight: bolder;
-     font-size: 36px;
-     color: #1f2937;
-     
+ button:hover {
+     background-color: #1f2937;
  }
 
-.section-three {
-background-color: #e5e7eb;
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    
+}
+
+h2 {
+    color: #1f2937;
+    padding-bottom: 15px;
+    margin-top: 50px;
+}
+
+.container-two {
+    display: flex;
+    flex: 1;
+    /* justify-content: space-around; */
+    gap: 18px;
+  
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+        /* justify-content: center; */
+    align-items: center;
+    
+    
+    /* flex-wrap: wrap; */
+    
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 12px;
+}
+
+.text-two {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 45px;
+   
+}
+
+.btn-middle {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 12px;
+    border: 2px white solid;
+    padding: 8px 16px;
+    
+
+}
+
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+background-color: #e5e7eb;
+padding: 65px 100px 65px 100px;
+
+ }
+
+ strong {
+     display: flex;
+     justify-content: end;
  }
 
  .section-three .quote {
      font-size: 36px;
      color: #1f2937;
+     font-style:italic;
+     font-weight: lighter;
+     flex-wrap: wrap;
+     
  }
 
  .first-pic {
@@ -114,30 +189,21 @@ background-color: #e5e7eb;
      justify-content: center;
      align-items: center;
      width: 400px;
+     padding: 0px;
  }
 
- .section-two {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding: 10px 100px 65px 100px;
- }
-
- .container-two {
-     display: flex;
+ 
     
-     flex: 1;
-     padding: 20px
-   
- }
 
- .info {
 
- }
+
+ 
+
+ 
 
  .button-two {
     background: #3882f6;
-    color: white;
+    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,6 +214,7 @@ background-color: #e5e7eb;
  }
 
 
+
  
 
  .container-three {
@@ -156,22 +223,23 @@ background-color: #e5e7eb;
      padding-right: 100px;
  }
 
- .box {
-    width: 100px;
-    height: 100px;
-    border: 20 solid blue;
-    padding: 2px;
-    border-radius: 7px;
- }
+
  
  
  .section-four {
     background-color:#3882f6 ;
-    color: #e5e7eb;
+    color:#e5e7eb ;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px 60px;
     margin: 60px 100px;
     border-radius: 7px;
+ }
+
+ footer {
+     color: #e5e7eb;
+     display: flex;
+     justify-content: center;
+     padding: 15px 
  }
